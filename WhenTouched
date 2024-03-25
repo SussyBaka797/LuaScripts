@@ -1,0 +1,5 @@
+local part = script.parent --parts name--
+function touched()
+                -- write here what you want to happen--
+end
+part.Touched.Connect(touched)
